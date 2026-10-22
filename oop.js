@@ -19,8 +19,9 @@ function User(username, logincount, signedIn) {
   this.username = username;
   this.logincount = logincount;
   this.signedIn = signedIn;
-  return this;
+  //   return this;
 }
+// here new is our constructor function when it is used an empty object is created which gives us a instance
 const user1 = new User("Yasir", 8, true);
 const user2 = new User("Ali", 5, false);
 console.log(user1);
